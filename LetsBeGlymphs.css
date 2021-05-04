@@ -1,1 +1,125 @@
-@font-face { font-family: "Lets Be Glyphs"; //regular src: url('#{$fontPath}/LetsBeGlyphs/LetsBeGlyphs-Regular.eot');/* IE9 Compat Modes */ src: url('#{$fontPath}/LetsBeGlyphs/LetsBeGlyphs-Regular.ttf') format('truetype'), url('#{$fontPath}/LetsBeGlyphs/LetsBeGlyphs-Regular.woff') format('woff'); /* Safari, Android, iOS */ font-style: normal; font-weight: 400; text-rendering: optimizeLegibility; } @font-face { font-family: "Lets Be Glyphs Semi-Bold"; //semi Bold src: url('#{$fontPath}/LetsBeGlyphs/LetsBeGlyphsCYR-Regular.eot');/* IE9 Compat Modes */ src: url('#{$fontPath}/LetsBeGlyphs/LetsBeGlyphsCYR-Regular.ttf') format('truetype'), url('#{$fontPath}/LetsBeGlyphs/LetsBeGlyphsCYR-Regular.woff') format('woff'); /* Safari, Android, iOS */ font-style: normal; font-weight: 600; text-rendering: optimizeLegibility; } @font-face { font-family: "Lets Be Glyphs Bouncy"; //Bouncy src: url('#{$fontPath}/LetsBeGlyphs/LetsBeGlyphs-Bouncy.eot');/* IE9 Compat Modes */ src: url('#{$fontPath}/LetsBeGlyphs/LetsBeGlyphs-Bouncy.ttf') format('truetype'), url('#{$fontPath}/LetsBeGlyphs/LetsBeGlyphs-Bouncy.woff') format('woff'); /* Safari, Android, iOS */ font-style: normal; font-weight: 400; text-rendering: optimizeLegibility; } @font-face { font-family: "Lets Be Glyphs Bouncy Semi-Bold"; //Bouncy Semi Bold src: url('#{$fontPath}/LetsBeGlyphs/LetsBeGlyphsCYR-Bouncy.eot');/* IE9 Compat Modes */ src: url('#{$fontPath}/LetsBeGlyphs/LetsBeGlyphsCYR-Bouncy.ttf') format('truetype'), url('#{$fontPath}/LetsBeGlyphs/LetsBeGlyphsCYR-Bouncy.woff') format('woff'); /* Safari, Android, iOS */ font-style: normal; font-weight: 600; text-rendering: optimizeLegibility; } @font-face { font-family: "Maax"; //regular src: url('#{$fontPath}/Maax-205TF/Maax - Regular-205TF.eot');/* IE9 Compat Modes */ src: url('#{$fontPath}/Maax-205TF/Maax - Regular-205TF.ttf') format('truetype'), url('#{$fontPath}/Maax-205TF/Maax - Regular-205TF.woff') format('woff'); /* Safari, Android, iOS */ font-style: normal; font-weight: 400; text-rendering: optimizeLegibility; } @font-face { font-family: "Maax Italic"; //regular italic src: url('#{$fontPath}/Maax-205TF/Maax - Italic-205TF.eot');/* IE9 Compat Modes */ src: url('#{$fontPath}/Maax-205TF/Maax - Italic-205TF.ttf') format('truetype'), url('#{$fontPath}/Maax-205TF/Maax - Italic-205TF.woff') format('woff'); /* Safari, Android, iOS */ font-style: italic; font-weight: 400; text-rendering: optimizeLegibility; } @font-face { font-family: "Maax Light"; //light src: url('#{$fontPath}/Maax-205TF/Maax - Light-205TF.eot');/* IE9 Compat Modes */ src: url('#{$fontPath}/Maax-205TF/Maax - Light-205TF.ttf') format('truetype'), url('#{$fontPath}/Maax-205TF/Maax - Light-205TF.woff') format('woff'); /* Safari, Android, iOS */ font-style: normal; font-weight: 300; text-rendering: optimizeLegibility; } @font-face { font-family: "Maax Medium"; //Medium src: url('#{$fontPath}/Maax-205TF/Maax - Medium-205TF.eot');/* IE9 Compat Modes */ src: url('#{$fontPath}/Maax-205TF/Maax - Medium-205TF.ttf') format('truetype'), url('#{$fontPath}/Maax-205TF/Maax - Medium-205TF.woff') format('woff'); /* Safari, Android, iOS */ font-style: normal; font-weight: 500; text-rendering: optimizeLegibility; } @font-face { font-family: "Maax Semi-Bold Italic"; // Semi Bold Italic src: url('#{$fontPath}/Maax-205TF/Maax - Bold-205TF.eot');/* IE9 Compat Modes */ src: url('#{$fontPath}/Maax-205TF/Maax - Bold-205TF.ttf') format('truetype'), url('#{$fontPath}/Maax-205TF/Maax - Bold-205TF.woff') format('woff'); /* Safari, Android, iOS */ font-style: italic; font-weight: 600; text-rendering: optimizeLegibility; } @font-face { font-family: "Maax Bold"; //Bold src: url('#{$fontPath}/Maax-205TF/Maax - Bold-205TF.eot');/* IE9 Compat Modes */ src: url('#{$fontPath}/Maax-205TF/Maax - Bold-205TF.ttf') format('truetype'), url('#{$fontPath}/Maax-205TF/Maax - Bold-205TF.woff') format('woff'); /* Safari, Android, iOS */ font-style: normal; font-weight: 700; text-rendering: optimizeLegibility; } @font-face { font-family: "Maax Bold Italic"; // Bold Italic src: url('#{$fontPath}/Maax-205TF/Maax - Bold Italic-205TF.eot');/* IE9 Compat Modes */ src: url('#{$fontPath}/Maax-205TF/Maax - Bold Italic-205TF.ttf') format('truetype'), url('#{$fontPath}/Maax-205TF/Maax - Bold Italic-205TF.woff') format('woff'); /* Safari, Android, iOS */ font-style: italic; font-weight: 700; text-rendering: optimizeLegibility; } @font-face { font-family: "Maax Extra-Bold"; // Extra Bold src: url('#{$fontPath}/Maax-205TF/Maax - Black-205TF.eot');/* IE9 Compat Modes */ src: url('#{$fontPath}/Maax-205TF/Maax - Black-205TF.ttf') format('truetype'), url('#{$fontPath}/Maax-205TF/Maax - Black-205TF.woff') format('woff'); /* Safari, Android, iOS */ font-style: normal; font-weight: 800; text-rendering: optimizeLegibility; }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sportz Cycling">
+  	<meta name="keywords" content="Cycling, News, Sponsers">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sportz CSS Test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    	<div class="container">
+	   		<nav>
+	   			<a href="#" target="_blank"><img src="images/logo.png" alt="Sportz"></a>
+	   			<div class="navigation">
+		   			<ul class="menus">
+		   				<li class="menu-item"><a href="#" class="menu-link active">Home</a></li>
+		   				<li class="menu-item"><a href="#" class="menu-link">News</a></li>
+		   				<li class="menu-item"><a href="#" class="menu-link">Fixtures</a></li>
+		   				<li class="menu-item"><a href="#" class="menu-link">Standings</a></li>
+		   				<li class="menu-item"><a href="#" class="menu-link">Team</a></li>
+		   				<li class="menu-item"><a href="#" class="menu-link">Galleries</a></li>
+		   				<li class="menu-item"><a href="#" class="menu-link">Media</a></li>
+		   				<li class="menu-item"><a href="#" class="menu-link">About</a></li>
+		   			</ul> 
+		   			<div class="search-icon"><i class="fa fa-search" aria-hidden="true"></i></div>
+		   			<div class="hamburger">
+		   				<div class="line active"></div>
+		   				<div class="line"></div>
+		   				<div class="line"></div>
+		   			</div>
+	   			</div>
+	   			
+	   		</nav>
+	   		
+   		</div>
+   		<div class="banner">
+   			<div class="banner-content">
+   				<div class="bannerText">
+   					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+   					<a href="" class="readMore">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+   				</div>
+	   			<div class="slider-indicators">
+	   				<span class="line"></span>
+	   				<span class="line active"></span>
+	   				<span class="line"></span>
+	   			</div>
+	   		</div>
+	   	</div>
+    </header>
+
+    <section class="news">
+    	<div class="container">
+			<div class="newsHeader">
+					<div class="heading">recent news</div><a href="" class="readMore">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+			</div>
+    		<div class="newsBody">
+				<div class="left">
+					<img src="images/news1.jpg" alt="" width="100%">
+					<div class="imgText">
+						<div class="date">
+							<p>VIDEO </p><span>September 12, 2017</span>
+						</div>
+						
+						<h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+					</div>
+				</div>
+				<div class="right">
+					<div class="box">
+						<div class="imgBx"><img src="images/news2.jpg" alt="" width="100%"></div>
+						<div class="imgBxContent">
+							<h4>VIDEO</h4>
+							<p>September 12, 2017</p>
+							<h4 class="info">Lorem ipsum dolor, sit amet consectetur adipisicing.</h4>
+						</div>
+					</div>
+					<div class="box">
+							<div class="imgBx"><img src="images/news3.jpg" alt="" width="100%"></div>
+							<div class="imgBxContent">
+								<h4>VIDEO</h4>
+								<p>September 12, 2017</p>
+								<h4 class="info">Lorem ipsum dolor, sit amet consectetur adipisicing.</h4>
+							</div>
+						</div>
+				</div>
+			</div>
+    	</div>
+    </section>
+
+    <section class="sponsersSection">
+    	<!-- <div class="triangleShape"> -->
+    		<div class="container">
+    			<div class="heading">Our Sponsers</div>
+	    		<div class="sponsers" width="60%">
+	    			<div class="row">
+	    				<span class="sponser"><img src="images/sponsor-2.png" alt="FOX"></span>
+						<span class="sponser"><img src="images/sponsor-1.png" alt="Red Bull"></span>
+					
+	    			</div>
+	    			<div class="row">
+		    				<span class="sponser"><img src="images/sponsor-3.png" alt="edcite"></span>
+		    			<span class="sponser"><img src="images/sponsor-4.png" alt="mailchimp"></span>
+	    			</div>
+				</div>
+				<div class="triangleShape" width="40%"><img src="images/bg.jpg" alt="cycle-man"></div>
+    	</div>
+    	<!-- </div> -->
+    	
+    </section>
+
+    <footer>
+    	<div class="circle"><i class="fa fa-chevron-up" aria-hidden="true"></i></div>
+    	<div class="container">
+    		<div class="footerContent">
+    			<div class="copyright">Copyright &copy;. All Rights Reserved.</div>
+    			<div class="poweredBy">Powered by: <img src="images/si-logo.png" alt="Sportz"</div>
+    		</div>
+    		
+    	</div>
+    </footer>
+</body>
+</html>
